@@ -2,13 +2,7 @@ import ComponentCard from "./components/ComponentCard";
 
 
 function App() {
-  return (
-    <div>
-    
-     <ComponentCard/>
-  
-    </div> 
-  );
+  return <ComponentCard/>
 }
 
 export default App;
