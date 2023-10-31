@@ -17,6 +17,6 @@ font-family: Inter;
 font-size: 12px;
 font-weight: 500;
 margin-bottom: 19px;
-color: ${({theme})=>theme.colors.secondory};
+color: ${({ theme }) => theme.colors.secondory};
 `
 

@@ -1,10 +1,10 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import img from './../Rectangle.svg'
 import { Img } from "./Img.styled";
 import { BlockText, Heading, Text } from "./BlockText.styled";
 import { SaveBtn, SeeMoreBtn } from "./Buttons.styled";
 
-const ComponentCard = (props: any) => {
+const ComponentCard = () => {
 
     return (
         <Card>
@@ -25,8 +25,8 @@ const ComponentCard = (props: any) => {
 
 
 const Card = styled.div`
-width: ${({theme})=> theme.sizes.card.width}px;
-height: ${({theme})=> theme.sizes.card.height}px;
+width: ${({ theme }) => theme.sizes.width}px;
+height: ${({ theme }) => theme.sizes.height}px;
 border-radius: 15px;
 box-shadow: 0px 4px 20px 5px #0000001A;
 `
